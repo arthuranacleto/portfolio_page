@@ -119,6 +119,28 @@ margin: 1px;
     transition: color 300ms;
     }
 
+.linkproject a {
+color: #a2a190;
+font-size: 14px;
+line-height: 28px;
+margin: 0 16px;
+text-decoration: none;
+margin: 1px;
+}
+.linkproject {
+    text-align: center;
+    margin: 0px;}
+
+.linkproject a:hover{
+    color: #8cbd8e;
+    transition: color 300ms;
+    }
+
+#linkproject-footer a{
+    /*text-decoration: underline;*/
+    border-bottom: 1px solid  #8cbd8e;
+}
+
 #sociais-footer a{
     /*text-decoration: underline;*/
     border-bottom: 1px solid #a0289b;
@@ -147,6 +169,8 @@ margin: 1px;
 
 .card {
     background-color:  rgba(0, 0, 0, 0.1) /*#7159c1*/;
+    display: grid;
+    cursor: pointer;
 }
 
 .card__image-container img {
@@ -162,6 +186,7 @@ margin: 1px;
     display: grid;
     grid-template-columns: 1fr 1fr;
     font-size: 15px;
+    align-items: center;
 }
 
 .card__price {
@@ -196,10 +221,10 @@ margin: 1px;
     background-color: #3f3d56;
 }
 #wrapperc8 {
-    background-color: #575a89;
+    background-color: #46476a;
 }
 #wrapperc9 {
-    background-color: #46476a;
+    background-color: #252523;
 }
 
 
